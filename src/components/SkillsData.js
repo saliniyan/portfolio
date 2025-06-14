@@ -15,44 +15,49 @@ const SkillsData = [
     image: require("../assets/Images/javascript.png"),
   },
   {
-    id: "5",
+    id: "4",
     name: "MongoDB",
     image: require("../assets/Images/mongodb.png"),
   },
   {
-    id: "6",
+    id: "5",
     name: "Express",
     image: require("../assets/Images/express.png"),
   },
   {
-    id: "7",
+    id: "6",
     name: "React",
     image: require("../assets/Images/react.png"),
   },
   {
-    id: "8",
+    id: "7",
     name: "Node",
     image: require("../assets/Images/node.png"),
   },
   {
-    id: "14",
+    id: "8",
     name: "MySQL",
     image: require("../assets/Images/mysql.png"),
   },
   {
-    id: "16",
+    id: "9",
     name: "VS Code",
     image: require("../assets/Images/vscode.png"),
   },
   {
-    id: "17",
+    id: "10",
     name: "Git",
     image: require("../assets/Images/git.png"),
   },
   {
-    id: "18",
+    id: "11",
     name: "GitHub",
     image: require("../assets/Images/github.png"),
+  },
+  {
+    id: "12",
+    name: "Azure AI service",
+    image: require("../assets/Images/icons8-azure-48.png"),
   },
 ];
 

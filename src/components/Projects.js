@@ -22,13 +22,12 @@ const Projects = () => {
                 <h3 data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="text-2xl font-medium text-white my-2">{project.name}</h3>
                 <p data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="px-2 text-lg text-white">{project.description}</p>
                 <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="flex flex-wrap items-center gap-3 mt-3">
-                {
-                  project?.icons?.map((Icon,index)=>(
-                    <div className="rounded-full p-2" key={index}>
-                      <Icon className="text-white text-4xl font-bold"/>
-                    </div>
-                  ))
-                }
+                {project.icons.map((icon, i) =>
+                  icon.src ? (
+                      <img key={i} src={icon.src} alt="tech" className="w-6 h-6" />
+                    ) : null
+                  )} 
+
                 </div>
                 <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="flex gap-7 justify-center items-center my-7 text-2xl">
                   <div className="bg-white rounded-full p-2">

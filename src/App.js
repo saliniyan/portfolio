@@ -2,7 +2,6 @@ import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Achievements from './components/Achivements';
-import Footer from './components/Footer';
 import Projects from './components/Projects';
 import ScrollToTopButton from './components/ScrollToTop';
 import Skills from './components/Skills';
@@ -19,7 +18,6 @@ function App() {
       <Projects />
       <Achievements/>
       <Contact />
-      <Footer />
       <ScrollToTopButton />
       <ToastContainer />
     </div>
