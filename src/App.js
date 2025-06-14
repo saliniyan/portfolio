@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import ScrollToTopButton from './components/ScrollToTop';
 import Skills from './components/Skills';
 import Home from './pages/Home';
+import Certifications from './components/Certifications';
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Projects />
       <Achievements/>
+      <Certifications />
       <Contact />
       <ScrollToTopButton />
       <ToastContainer />

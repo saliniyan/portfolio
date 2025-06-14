@@ -2,19 +2,19 @@ const ProjectsData = [
    {
     id: 9,
     name: "Netflix movie analysis",
-    image: "./IMDB.png",
+    image: "./netflix.png",
     description:
       "Netflix movie trend analysis using PowerBI",
     icons: [
       { src: "https://img.icons8.com/?size=100&id=qYfwpsRXEcpc&format=png&color=000000" }, // powerbi
     ],
     github: "https://github.com/saliniyan/Netflix-Movie-Analysis-using-power_bi",
-    demo: "#",
+    demo: "https://app.powerbi.com/groups/me/reports/7cacb9c3-45d7-4f75-8246-43d7b199c19d/bfd3b34708a27493795a",
   },
   {
     id: 8,
     name: "Glass Type Prediction",
-    image: "./IMDB.png",
+    image: "./glass.png",
     description:
       "AI-based classification of glass types using Python and Flask backend.",
     icons: [
@@ -27,7 +27,7 @@ const ProjectsData = [
   {
     id: 7,
     name: "Event Manager",
-    image: "./IMDB.png",
+    image: "./event.png",
     description:
       "Full-stack event management tool using React, Node.js backend, and MongoDB database.",
     icons: [
@@ -36,12 +36,12 @@ const ProjectsData = [
       { src: "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000" }, // MongoDB
     ],
     github: "https://github.com/saliniyan/Event_manager",
-    demo: "#",
+    demo: "https://app.netlify.com/projects/saliniyan-event-manager/",
   },
   {
     id: 6,
     name: "Book Library",
-    image: "./IMDB.png",
+    image: "./book.png",
     description:
       "Simple book library application using React. Supports search and CRUD operations.",
     icons: [
@@ -53,7 +53,7 @@ const ProjectsData = [
   {
     id: 5,
     name: "E‑commerce Web Scraping",
-    image: "./IMDB.png",
+    image: "./scrap.png",
     description:
       "Web scraper using Python to extract product data, integrated with React frontend and MongoDB database.",
     icons: [
@@ -67,7 +67,7 @@ const ProjectsData = [
   {
     id: 4,
     name: "Stock Tracker",
-    image: "./IMDB.png",
+    image: "./stock.png",
     description:
       "Stock monitoring dashboard with real-time updates using React, Node.js, Express, and MongoDB.",
     icons: [
@@ -77,12 +77,12 @@ const ProjectsData = [
       { src: "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000" }, // MongoDB
     ],
     github: "https://github.com/saliniyan/stock_tracker",
-    demo: "#",
+    demo: "https://saliniyan-consultency.netlify.app/",
   },
   {
     id: 3,
     name: "Disease Insight AI",
-    image: "./IMDB.png",
+    image: "./disease.png",
     description:
       "ML/DL-based disease insights with Python backend and React frontend. Visualizations and AI predictions.",
     icons: [
@@ -95,7 +95,7 @@ const ProjectsData = [
   {
     id: 2,
     name: "SIH AADHAR Flutter",
-    image: "./IMDB.png",
+    image: "./sih.png",
     description:
       "Android Studio-based mobile application for Aadhaar authentication tracking in Smart India Hackathon.",
     icons: [
@@ -107,7 +107,7 @@ const ProjectsData = [
   {
     id: 1,
     name: "Room Booking Web",
-    image: "./IMDB.png",
+    image: "./room_booking.png",
     description:
       "Room booking web app using Flask, HTML, and CSS. Backend built with Python Flask and styled with CSS.",
     icons: [
@@ -117,7 +117,7 @@ const ProjectsData = [
       { src: "https://img.icons8.com/?size=100&id=21278&format=png&color=000000" }, // CSS
     ],
     github: "https://github.com/saliniyan/room_booking_web",
-    demo: "#",
+    demo: "https://saliniyan.pythonanywhere.com/",
   },
 ];
 

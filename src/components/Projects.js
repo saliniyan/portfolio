@@ -35,11 +35,18 @@ const Projects = () => {
                       <FaGithub />
                     </a>
                   </div>
+                  {project.demo !== "#" && (
                   <div className="bg-white rounded-full p-2">
-                  <a className="text-darkblue text-xl bg-white" href={project.demo} target="_blank" rel="noopener noreferrer">
-                    <FaExternalLinkAlt  className='p-[1px]'/>
-                  </a>
+                    <a
+                      className="text-darkblue text-xl bg-white"
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaExternalLinkAlt className="p-[1px]" />
+                    </a>
                   </div>
+                )}
                 </div>
               </div>
             </div>
