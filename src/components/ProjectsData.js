@@ -36,7 +36,7 @@ const ProjectsData = [
       { src: "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000" }, // MongoDB
     ],
     github: "https://github.com/saliniyan/Event_manager",
-    demo: "https://app.netlify.com/projects/saliniyan-event-manager/",
+    demo: "https://saliniyan-event-manager.netlify.app/",
   },
   {
     id: 6,
