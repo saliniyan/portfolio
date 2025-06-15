@@ -77,7 +77,7 @@ const ProjectsData = [
       { src: "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000" }, // MongoDB
     ],
     github: "https://github.com/saliniyan/stock_tracker",
-    demo: "https://saliniyan-consultency.netlify.app/",
+    demo: "https://stock.saliniyan.tech",
   },
   {
     id: 3,
