@@ -1,7 +1,7 @@
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
-import Achievements from './components/Achivements';
+import Achievements from './components/Achievements';
 import Projects from './components/Projects';
 import ScrollToTopButton from './components/ScrollToTop';
 import Skills from './components/Skills';

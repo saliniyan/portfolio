@@ -21,6 +21,12 @@ const Achievements = () => {
   const educationRefs = useRef([]);
   const achievementRefs = useRef([]);
 
+  useEffect(() => {
+    educationRefs.current = education.map(() => React.createRef());
+    achievementRefs.current = achievements.map(() => React.createRef());
+  }, []);
+
+
   const education = [
     {
       id: 'education-1',
@@ -181,7 +187,10 @@ const Achievements = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 px-4 sm:px-6 lg:px-8 py-12">
+    <div 
+      id="education-section"
+      className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 px-4 sm:px-6 lg:px-8 py-12"
+    >
       {/* Education Section */}
       <div className="max-w-6xl mx-auto mb-20">
         <div className="text-center mb-12" data-aos="zoom-in">
@@ -216,14 +225,14 @@ const Achievements = () => {
           {/* Cards (right) */}
           <div className="lg:col-span-8 space-y-12">
             {education.map((item, index) =>
-              renderCard(item, (educationRefs.current[index] = React.createRef()))
+              renderCard(item, educationRefs.current[index])
             )}
           </div>
         </div>
       </div>
 
       {/* Achievements Section */}
-      <div className="max-w-6xl mx-auto">
+      <div id="achievement-section" className="max-w-6xl mx-auto">
         <div className="text-center mb-12" data-aos="zoom-in">
           <h1 className="text-4xl font-bold text-gray-900">Achievements</h1>
           <p className="text-lg font-medium text-orange-500 mt-2">Recognition and awards for my work</p>
@@ -254,7 +263,7 @@ const Achievements = () => {
 
           <div className="lg:col-span-8 space-y-12">
             {achievements.map((item, index) =>
-              renderCard(item, (achievementRefs.current[index] = React.createRef()))
+              renderCard(item, achievementRefs.current[index])
             )}
           </div>
         </div>
