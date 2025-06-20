@@ -94,10 +94,10 @@ const ProjectsData = [
   },
   {
     id: 2,
-    name: "SIH AADHAR Flutter",
+    name: "Hardware enabled root of trust",
     image: "./sih.png",
     description:
-      "Android Studio-based mobile application for Aadhaar authentication tracking in Smart India Hackathon.",
+      "Android Studio-based mobile application for two phase authentication tracking in Smart India Hackathon.",
     icons: [
       { src: "https://img.icons8.com/?size=100&id=YWZEnr62tgb1&format=png&color=FFFFFF" }, // Android Studio
     ],

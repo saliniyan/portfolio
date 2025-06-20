@@ -94,13 +94,8 @@ import {
     AOS.init({ duration: 1000, once: false });
   }, []);
 
-  const educationRefs = useRef([]);
-  const achievementRefs = useRef([]);
-
-  useEffect(() => {
-    educationRefs.current = education.map(() => React.createRef());
-    achievementRefs.current = achievements.map(() => React.createRef());
-  }, []);
+  const educationRefs = useRef(education.map(() => React.createRef()));
+  const achievementRefs = useRef(achievements.map(() => React.createRef()));
 
   const scrollToRef = (ref) => {
     if (ref?.current) {
