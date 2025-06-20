@@ -79,7 +79,7 @@ const Profile = () => {
           </Link>
 
             <a
-              href="https://drive.google.com/file/d/1R9yOxd0wEmADSXKckHsBBZEi9029NrR_/view"
+              href="https://drive.google.com/file/d/1wp8WHkgtpU6JwdbBrznq5qzGa6mgwqtJ/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
