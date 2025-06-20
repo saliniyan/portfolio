@@ -13,20 +13,6 @@ import {
   Star,
 } from 'lucide-react';
 
-const Achievements = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: false });
-  }, []);
-
-  const educationRefs = useRef([]);
-  const achievementRefs = useRef([]);
-
-  useEffect(() => {
-    educationRefs.current = education.map(() => React.createRef());
-    achievementRefs.current = achievements.map(() => React.createRef());
-  }, []);
-
-
   const education = [
     {
       id: 'education-1',
@@ -102,6 +88,19 @@ const Achievements = () => {
       borderColor: 'border-purple-200',
     },
   ];
+
+  const Achievements = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: false });
+  }, []);
+
+  const educationRefs = useRef([]);
+  const achievementRefs = useRef([]);
+
+  useEffect(() => {
+    educationRefs.current = education.map(() => React.createRef());
+    achievementRefs.current = achievements.map(() => React.createRef());
+  }, []);
 
   const scrollToRef = (ref) => {
     if (ref?.current) {
