@@ -97,11 +97,10 @@ import {
   const educationRefs = useRef(education.map(() => React.createRef()));
   const achievementRefs = useRef(achievements.map(() => React.createRef()));
 
-  const scrollToRef = (ref) => {
+  const scrollToRef = (ref, offset = 100) => {
     if (ref?.current) {
-      const topOffset = 100; // Adjust this value as needed (e.g., height of your sticky header)
       const elementPosition = ref.current.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - topOffset;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
 
       window.scrollTo({
         top: offsetPosition,
@@ -109,7 +108,6 @@ import {
       });
     }
   };
-
 
   const renderCard = (item, ref) => (
     <div
@@ -197,7 +195,7 @@ import {
             {education.map((item, index) => (
               <button
                 key={item.id}
-                onClick={() => scrollToRef(educationRefs.current[index])}
+                onClick={() => scrollToRef(educationRefs.current[index], window.innerWidth < 1024 ? 200 : 100)}
                 className="w-full text-left p-4 rounded-xl border-2 border-gray-200 bg-white hover:bg-gray-50"
               >
                 <div className="flex items-center gap-3">
@@ -236,7 +234,7 @@ import {
             {achievements.map((item, index) => (
               <button
                 key={item.id}
-                onClick={() => scrollToRef(achievementRefs.current[index])}
+                onClick={() => scrollToRef(achievementRefs.current[index], window.innerWidth < 1024 ? 200 : 100)}
                 className="w-full text-left p-4 rounded-xl border-2 border-gray-200 bg-white hover:bg-gray-50"
               >
                 <div className="flex items-center gap-3">

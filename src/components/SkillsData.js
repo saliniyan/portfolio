@@ -46,8 +46,8 @@ const SkillsData = [
   },
   {
     id: "10",
-    name: "Git",
-    image: require("../assets/Images/git.png"),
+    name: "Postman",
+    image: require("../assets/Images/postman.png"),
   },
   {
     id: "11",
