@@ -23,7 +23,7 @@ import {
       period: '2022 - 2026',
       description:
         'Pursuing Bachelor of Technology in Artificial Intelligence & Machine Learning',
-      metric: 'CGPA: 8.21',
+      metric: 'CGPA: 8.17',
       color: 'from-blue-500 to-purple-600',
       bgColor: 'bg-blue-50',
       borderColor: 'border-blue-200',
@@ -119,9 +119,9 @@ import {
       <div className={`absolute top-0 right-0 w-64 h-64 bg-gradient-to-br ${item.color} opacity-10 rounded-full -translate-y-32 translate-x-32`} />
       <div className="relative">
         <div className="flex items-start gap-4 mb-6">
-          <div className={`p-4 rounded-2xl bg-gradient-to-r ${item.color} text-white shadow-lg`}>
-            {item.icon}
-          </div>
+          <div className={`bg-gradient-to-r ${item.color} text-white p-2 rounded-lg`}>
+          {item.icon}
+        </div>
           <div className="flex-1">
             <h3 className="text-2xl font-bold text-gray-900">{item.title}</h3>
             <p className="text-lg text-gray-700 font-medium">{item.subtitle}</p>
@@ -199,11 +199,9 @@ import {
                 className="w-full text-left p-4 rounded-xl border-2 border-gray-200 bg-white hover:bg-gray-50"
               >
                 <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-lg bg-gray-100">
-                    <div className={`bg-gradient-to-r ${item.color} bg-clip-text text-transparent`}>
-                      {item.icon}
-                    </div>
-                  </div>
+                  <div className={`p-2 rounded-lg bg-gradient-to-r ${item.color} text-white`}>
+                    {item.icon}
+                </div>
                   <div className="flex-1">
                     <div className="font-semibold text-gray-900 text-sm">{item.title}</div>
                     <div className="text-xs text-gray-600">{item.period}</div>
@@ -238,10 +236,8 @@ import {
                 className="w-full text-left p-4 rounded-xl border-2 border-gray-200 bg-white hover:bg-gray-50"
               >
                 <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-lg bg-gray-100">
-                    <div className={`bg-gradient-to-r ${item.color} bg-clip-text text-transparent`}>
-                      {item.icon}
-                    </div>
+                 <div className={`p-2 rounded-lg bg-gradient-to-r ${item.color} text-white`}>
+                    {item.icon}
                   </div>
                   <div className="flex-1">
                     <div className="font-semibold text-gray-900 text-sm">{item.title}</div>

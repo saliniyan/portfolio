@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaKeyboard } from 'react-icons/fa';
+import { SiLeetcode } from "react-icons/si";
 
 const SocialHandles = () => {
   return (
@@ -12,7 +12,7 @@ const SocialHandles = () => {
           <FaLinkedin />
         </a>
         <a className="text-white text-2xl md:text-xl transition duration-700 hover:scale-125" href="https://leetcode.com/u/saliniyan/" target="_blank" rel="noreferrer">
-          <FaKeyboard />
+          <SiLeetcode />
         </a>
     </div>
   )
