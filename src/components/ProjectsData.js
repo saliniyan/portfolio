@@ -48,7 +48,7 @@ const ProjectsData = [
       { src: "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" }, // React
     ],
     github: "https://github.com/saliniyan/Book_Library",
-    demo: "#",
+    demo: "https://book.saliniyan.tech",
   },
   {
     id: 5,
