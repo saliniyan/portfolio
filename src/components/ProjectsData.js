@@ -26,20 +26,6 @@ const ProjectsData = [
   },
   {
     id: 7,
-    name: "Event Manager",
-    image: "./event.png",
-    description:
-      "Full-stack event management tool using React, Node.js backend, and MongoDB database.",
-    icons: [
-      { src: "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" }, // React
-      { src: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" }, // Node.js
-      { src: "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000" }, // MongoDB
-    ],
-    github: "https://github.com/saliniyan/Event_manager",
-    demo: "https://saliniyan-event-manager.netlify.app/",
-  },
-  {
-    id: 6,
     name: "Book Library",
     image: "./book.png",
     description:
@@ -51,7 +37,7 @@ const ProjectsData = [
     demo: "https://book.saliniyan.tech",
   },
   {
-    id: 5,
+    id: 6,
     name: "E‑commerce Web Scraping",
     image: "./scrap.png",
     description:
@@ -65,7 +51,7 @@ const ProjectsData = [
     demo: "#",
   },
   {
-    id: 4,
+    id: 5,
     name: "Stock Tracker",
     image: "./stock.png",
     description:
@@ -80,7 +66,7 @@ const ProjectsData = [
     demo: "https://stock.saliniyan.tech",
   },
   {
-    id: 3,
+    id: 4,
     name: "Disease Insight AI",
     image: "./disease.png",
     description:
@@ -93,6 +79,18 @@ const ProjectsData = [
     demo: "#",
   },
   {
+    id: 3,
+    name: "Media Analyzer",
+    image: "./azure.png",
+    description:
+      "Transform lecture and lesson audio into a summary in your preferred language, and listen to it with multiple voice using AI-powered insights.",
+    icons: [
+      { src: "https://icons8.com/icon/VLKafOkk3sBX/azure" },
+    ],
+    github: "https://github.com/saliniyan/media-analyzer-azure",
+    demo: "https://media.saliniyan.tech",
+  },
+    {
     id: 2,
     name: "Hardware enabled root of trust",
     image: "./sih.png",
