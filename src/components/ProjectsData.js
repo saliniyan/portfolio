@@ -85,7 +85,10 @@ const ProjectsData = [
     description:
       "Transform lecture and lesson audio into a summary in your preferred language, and listen to it with multiple voice using AI-powered insights.",
     icons: [
-      { src: "https://icons8.com/icon/VLKafOkk3sBX/azure" },
+      { src: "https://img.icons8.com/?size=100&id=VLKafOkk3sBX&format=png&color=000000" },
+      { src: "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" }, // React
+      { src: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" }, // Node.js
+      { src: "https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000" } // Express
     ],
     github: "https://github.com/saliniyan/media-analyzer-azure",
     demo: "https://media.saliniyan.tech",
