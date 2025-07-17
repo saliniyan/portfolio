@@ -23,7 +23,7 @@ import {
       period: '2022 - 2026',
       description:
         'Pursuing Bachelor of Technology in Artificial Intelligence & Machine Learning',
-      metric: 'CGPA: 8.17',
+      metric: 'CGPA: 8.22',
       color: 'from-blue-500 to-purple-600',
       bgColor: 'bg-blue-50',
       borderColor: 'border-blue-200',
