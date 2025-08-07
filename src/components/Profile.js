@@ -37,7 +37,7 @@ const Profile = () => {
           >
             &nbsp;
             <Typewriter
-              words={["Web Developer", "Enthusiastic Dev"]}
+              words={["Full-stack Engineer", "Enthusiastic Dev"]}
               loop={false}
               typeSpeed={100}
               deleteSpeed={100}
@@ -118,3 +118,4 @@ const Profile = () => {
 };
 
 export default Profile;
+
